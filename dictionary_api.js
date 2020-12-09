@@ -45,7 +45,7 @@ function create_Css(word,meaning,scientific_name,audio_link,example){
     // meaning 
     main_meaning=document.createElement("h7")
     main_meaning.setAttribute("id","main_meaning")
-    main_meaning.innerText=`Meaning of the woed is ${meaning}`
+    main_meaning.innerText=`Meaning of the word is ${meaning}`
 
     // scientific_name
     scientific_name1=document.createElement("h7")
